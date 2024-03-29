@@ -7,9 +7,9 @@ public class candela{
         System.out.println("Hola Mundo");
         System.out.println("Probando a hacer cambios");
         sc.close();
-      String cadena = sc.nextLine();
-      if(cadena.equals("Marco")){
-      system.out.println("Ese es el verdadero tanke");
-      }
+        String cadena = sc.nextLine();
+        if(cadena.equals("Marco")){
+        system.out.println("Ese es el verdadero tanke");
+        }
     }
 }
