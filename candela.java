@@ -11,5 +11,8 @@ public class candela{
         if(cadena.equals("Marco")){
         system.out.println("Ese es el verdadero tanke");
         }
+        for(int i=0; i<10; i++){
+            System.out.println("el verdadero tanke eres tú mi rey");
+        }
     }
 }
