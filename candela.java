@@ -10,9 +10,34 @@ public class candela{
         String cadena = sc.nextLine();
         if(cadena.equals("Marco")){
         system.out.println("Ese es el verdadero tanke");
+
+         int matriz[][], nfilas, ncolumnas;
+        Scanner sc = new Scanner(System.in);
+        nfilas = Integer.parseInt(JOptionPane.showInputDialog(null, "Escriba el numero de filas"));
+        ncolumnas = Integer.parseInt(JOptionPane.showInputDialog(null, "Escriba el numero de columnas"));
+
+        matriz = new int[nfilas][ncolumnas];
+        System.out.println("Escriba la Matriz:");
+        for (int i = 0; i < nfilas; i++) {
+            for (int j = 0; j < ncolumnas; j++) {
+                System.out.print("Matriz[" + i + "][" + j + "]: ");
+                matriz[i][j] = sc.nextInt();
+            }
         }
-        for(int i=0; i<10; i++){
-            System.out.println("el verdadero tanke eres tú mi rey");
+        System.out.println("\nLa matriz es: ");
+        for (int i = 0; i < nfilas; i++) {
+            for (int j = 0; j < ncolumnas; j++) {
+                System.out.print(matriz[i][j]);
+            }
+            System.out.println("");
+        }
+        
+        
+        
+        
+        
+        
+        
         }
     }
 }
